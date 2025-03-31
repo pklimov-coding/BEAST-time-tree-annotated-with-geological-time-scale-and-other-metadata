@@ -19,7 +19,7 @@ library(cowplot)
 script_dir <- dirname(rstudioapi::getSourceEditorContext()$path) #sets the working dir in Rstudio 
 setwd(script_dir) #OR define the working dir manually
 
-inputTree <- "input/0-Acariformes.BEAST2.7.runs1-6.tree.TA.tre" #must be calibrated with absolute time
+inputTree <- "input/0-Acariformes.BEAST2.7.runs1-8.burnin10.720008.trees.TA.tre" #must be calibrated with absolute time
 annot_tree <- read.beast(inputTree)
 annot_tree@phylo$tip.label <- str_replace_all(annot_tree@phylo$tip.label,"_"," ") # change the label to replace all the "_" to spaces
 RootTime <- max(annot_tree@data$height_median) # get root time
