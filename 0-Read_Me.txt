@@ -1,4 +1,4 @@
-This R script annotates  BEAST trees calibrated with absolute time (eg., input/0-Acariformes.BEAST2.7.runs1-6.tree.TA.tre) with various metadata: 
+This R script annotates  BEAST trees calibrated with absolute time (eg., input/0-Acariformes.BEAST2.7.runs1-8.burnin10.720008.trees.TA.tre) with various metadata: 
 (1) Geological time scale (R package deeptime)
 (2)Temperature and CO2 levels on Earth (from Royer et al. 2004: input/All_palaeotemps_CO2_temperature.xlsx). For convenience, a summary of these data is saved in this file: input/Temp-summary-from-Royer-et-al-2004.xlsx.
 (3) Major events on Earth (see Supplementary Table 1 for references)  defined in the file input/paleoEvents.xlsx. Paleoevents are visualized as:
